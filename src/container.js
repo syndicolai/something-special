@@ -8,16 +8,15 @@ class Container extends Component{
     }
 
     render(){
-
-        return (<div>
-            <div className="container-fluid">
-                <WineLogo />
-                <Menu />
-                <div className="row content">
-                    {this.props.children}
-                </div>
-            </div>
-        </div>);
+        return (   <div className="App">
+        <div className="App-header">
+          <h2>Selenium app</h2>
+        </div>
+        <Menu />
+        <div className="row content">
+            {this.props.children}
+        </div>
+      </div>);
     }
 }
 
