@@ -1,0 +1,30 @@
+body {
+  font-family: Papyrus, fantasy;
+  color: black;
+  font-size: 2em; }
+
+a:link {
+  color: black; }
+
+.header {
+  height: 50px;
+  background: #181308;
+  width: 960px;
+  margin: 0px auto; }
+
+.logo {
+  height: 250px; }
+
+.navbar-fucked-up {
+  background-color: transparent; }
+
+.navbar-nav {
+  width: 100%;
+  color: black;
+  text-align: center; }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block; }
+
+h1 {
+  background-color: transparent; }
